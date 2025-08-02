@@ -1,7 +1,7 @@
 {
   "Title": "Wheel Collider Fork",
-  "Type": "game",
-  "Org": "clicker",
+  "Type": "library",
+  "Org": "vitaly",
   "Ident": "libwheel_fork",
   "Schema": 1,
   "IncludeSourceFiles": false,
