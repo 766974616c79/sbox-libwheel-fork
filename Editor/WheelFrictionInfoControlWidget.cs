@@ -39,7 +39,7 @@ public class WheelFrictionInfoControlWidget : ControlWidget
 		Paint.ClearPen();
 
 		Rect localRect = LocalRect;
-		Paint.SetBrush( ControlColor.Lighten( 0.25f ) );
-		Paint.DrawRect( in localRect, ControlRadius );
+		Paint.SetBrush( Theme.ControlBackground.Lighten( 0.25f ) );
+		Paint.DrawRect( in localRect, Theme.ControlRadius );
 	}
 }
